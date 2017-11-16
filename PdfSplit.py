@@ -1,7 +1,7 @@
 #! python3
 
 # Makes a separate folder for each pdf file and splits the pdf file in that folder
-# py PdfSplit "<Path>" <-- place path between commas 
+# PdfSplit "<Path>" <-- place path between commas 
 
 import os, PyPDF2, sys, logging
 logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s- %(message)s')
